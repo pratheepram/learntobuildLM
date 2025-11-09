@@ -1,0 +1,22 @@
+# Apple's native machine learning framework for Apple Silicon
+# This is the core engine for all tensor operations.
+mlx
+# MLX-specific helpers for Language Models.
+mlx-lm
+
+# Hugging Face library for downloading the TinyStories dataset.
+datasets
+
+# Hugging Face's high-performance library for training
+# and using our BPE tokenizer.
+tokenizers
+
+# Required for high-speed data packing (memmap) and batch loading.
+numpy
+
+# Used for safely saving and loading the optimizer state.
+# This format is framework-agnostic and secure.
+safetensors
+
+# Logging library for structured logging with context.
+loguru
